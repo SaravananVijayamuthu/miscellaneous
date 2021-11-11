@@ -52,8 +52,8 @@ p{font-family:'Inter-Medium';font-size:16px;}
 .header_navbar .navigation ul{padding:0;margin:0;font-size:1rem;list-style-type:none;}
 .header_navbar .navigation ul li{display:inline-block;position:relative;}
 .header_navbar .navigation ul li .dropdown-arrow{position:absolute;top:32px;right:0;width:1.8125rem;height:2.125rem;background-image:url(../images/right-arrow.png);background-repeat:no-repeat;background-position:14px 9px;cursor:pointer;-webkit-transition:all ease .4s;-ms-transition:all ease .4s;transition:all ease .4s;z-index:1;transform:rotate(90deg);background-size:6px;}
-.header_navbar .navigation ul li a{position:relative;color:#8A94A6;padding:40px 15px;display:inline-block;font-family:'Inter-Medium';line-height:21.6px;font-size:16px;}
-.header_navbar .navigation ul li a:hover{text-decoration:none;color:#323B4B;}
+.header_navbar .navigation ul li a{position:relative;color:#000;padding:40px 15px;display:inline-block;font-family:'Inter-Medium';line-height:21.6px;font-size:16px;}
+.header_navbar .navigation ul li a:hover{text-decoration:none;color:#000;}
 .header_navbar .navigation ul li .sub-menu{position:absolute;top:100%;left:22px;width:15.625rem;font-size:18px;background-color:#ffffff;text-align:left;visibility:hidden;opacity:0;-webkit-box-shadow:0 0 0.625rem rgba(0,0,0,0.1);-ms-box-shadow:0 0 0.625rem rgba(0,0,0,0.1);-moz-box-shadow:0 0 0.625rem rgba(0,0,0,0.1);-o-box-shadow:0 0 0.625rem rgba(0,0,0,0.1);box-shadow:0 0 0.625rem rgba(0,0,0,0.1);-webkit-transition:all ease .4s;-ms-transition:all ease .4s;transition:all ease .4s;z-index:2;}
 .header_navbar .navigation ul li:hover > .sub-menu{visibility:visible;opacity:1;pointer-events:auto;}
 .header_navbar .navigation ul li .sub-menu li{display:block;padding:0;}
@@ -69,12 +69,12 @@ p{font-family:'Inter-Medium';font-size:16px;}
 .header_navbar .toggle .toggle-separator{display:inline-block;vertical-align:middle;width:1.5625rem;height:0.125rem;margin-top:0.5rem;background-color:#000;position:relative;-webkit-transition:all ease .3s;-ms-transition:all ease .3s;transition:all ease .3s;}
 .header_navbar .toggle .toggle-separator:before,.header_navbar .toggle .toggle-separator:after{position:absolute;top:-0.5rem;right:0;width:100%;height:0.125rem;background:#000;content:"";-webkit-transition:all ease .3s;-ms-transition:all ease .3s;transition:all ease .3s;z-index:1;}
 .header_navbar .toggle .toggle-separator:after{top:0.5rem;}
-.header_navbar .toggle.active .toggle-separator{background-color:transparent;}
+.header_navbar .toggle.active .toggle-separator{background-color:#ffffff;}
 .header_navbar .toggle.active .toggle-separator:before{top:-0.3125rem;-webkit-transform:translateY(0.3125rem) rotateZ(-45deg);-ms-transform:translateY(0.3125rem) rotateZ(-45deg);transform:translateY(0.3125rem) rotateZ(-45deg);}
 .header_navbar .toggle.active .toggle-separator:after{top:0.3125rem;-webkit-transform:translateY(-0.3125rem) rotateZ(45deg);-ms-transform:translateY(-0.3125rem) rotateZ(45deg);transform:translateY(-0.3125rem) rotateZ(45deg);}
 .header_navbar .navigation ul.menu > li > a{padding:60px 22px;transition:0.5s;text-transform:capitalize;font-size:16px;}
-.header_navbar .navigation ul.menu > li.active > a{color:#323B4B;font-family:'Inter-SemiBold';}
-.header_navbar .btn-1{background-color:#377DFF;padding:19px 44px 19px 44px !important;border-radius:11px;font-size:16px;color:#fff !important;font-family:'Inter-SemiBold';display:flex !important;align-items:center;justify-content:center;max-width:max-content;}
+.header_navbar .navigation ul.menu > li.active > a{color:#000;font-family:'Inter-SemiBold';}
+.header_navbar .btn-1{background-color:#cdfbcc;padding:19px 44px 19px 44px !important;border-radius:11px;font-size:16px;color:#fff !important;font-family:'Inter-SemiBold';display:flex !important;align-items:center;justify-content:center;max-width:max-content;}
 .header_navbar .btn-1 span{display:inline-block;width:16px;height:16px;background-image:url('../images/icon-arrow-right-2.png');background-repeat:no-repeat;background-size:16px;margin-left:25px;animation:arrow 1s infinite;animation-direction:alternate;}
 .header_navbar{background-color:#ffffff;margin:0px 0px;}
 .header_navbar .navigation ul.menu > li:last-child{margin-left:20px;}
