@@ -4944,7 +4944,7 @@ white-space: inherit;
 .feature-l5-1-items .col-lg-3:after {
   position: absolute;
   content: "";
-  background: url(../../../image/landing-5/arrow-long.html) no-repeat;
+  /* background: url(../../../image/landing-5/arrow-long.html) no-repeat; */
   top: 50%;
   right: -58%;
   transform: translate(-50%, -50%);
